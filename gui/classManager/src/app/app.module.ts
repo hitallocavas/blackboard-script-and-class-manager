@@ -41,7 +41,7 @@ const routes:Routes =[
     MatTabsModule, MatIconModule, MatDividerModule, MatButtonModule,
     BrowserAnimationsModule, FormsModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/home'}],
+  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
